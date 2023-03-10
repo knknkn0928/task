@@ -19,16 +19,37 @@
 <h3>Github란?</h3>
 인터넷 온라인의 서버를 통해 백업과 협업, 장소를 옮긴 작업을 용이하게 만드는 저장소.
 
-<h3></h3>
+<h3>파일 등록-커밋</h3>
+<b>git init</b> 폴더에 로컬 저장소 .git 생성
+<b>git add "파일명.확장자", git add . </b> 파일을 개별추가 / 전체추가
+<b>git commit -m "이건 첫번째로 할때"</b> 커밋해서 버전 생성
+<b>git commit -am "<i>이건 두번째 커밋부터</i>"</b> 추가와 커밋을 한번에
 
-<button></button>
-<button></button>
+<h3>이력확인</h3>
+<b>git status</b> 현재상태 확인
+<b>git config --list</b> 설정정보 확인
+<b>git log</b> 커밋기록 확인
+<b>log + 명령어</b>
+<b>--oneline</b> 한줄 요약된 커밋기록
+<b>--graph</b> 그래프 포함된 커밋기록
+<b>--all</b> 그동안 커밋된 기록과 생성요소 전부 확인
 
-<h3></h3>
-<button></button>
-<button></button>
+<h3>브랜치</h3>
+<b>git branch " "</b> 명령 브랜치 생성
+<b>git switch " "</b> 명령 브랜치로 이동
+<b>git merge " "</b> 현재 브랜치를 명령 브랜치와 병합
+<b>git branch -a , --list</b> 생성된 브랜치 리스트 확인
 
+<h3>github 공유</h3>
+<b>git push -u origin "main"</b> main 브랜치에 업로드
+<b>git push origin "브랜치"</b> 다른 브랜치에 업로드
+<b>git pull origin "main"</b> main 브랜치에서 다운로드
+<b>git pull origin "브랜치"</b> 다른 브랜치에서 다운로드
 
+<h3>github에서 복사</h3>
+<b>git clone http://github.com~ </b> 내 로컬 저장소로 복사
+<b>git clone http://github.com~ .</b> 폴더를 미리 생성해둔 경우
+<b></b>
 
 
 
