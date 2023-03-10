@@ -29,7 +29,7 @@
 <b>git status</b> 현재상태 확인
 <b>git config --list</b> 설정정보 확인
 <b>git log</b> 커밋기록 확인
-<b>log + 명령어</b>
+<h5><b>log + 명령어</b></h5>
 <b>--oneline</b> 한줄 요약된 커밋기록
 <b>--graph</b> 그래프 포함된 커밋기록
 <b>--all</b> 그동안 커밋된 기록과 생성요소 전부 확인
